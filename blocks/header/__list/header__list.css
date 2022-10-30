@@ -1,3 +1,7 @@
+.header__list {
+  cursor: pointer;
+}
+
 .header__list:nth-child(1) {
   padding: 17px 45px 20px 40px;
   background-color: #fff;

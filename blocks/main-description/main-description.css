@@ -1,9 +1,6 @@
 .main-description {
   position: relative;
   padding: 347px 0 432px 0;
-  /* background-image: url(../../images/main-description__image1.png),
-    url(../../images/main-description__image2.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 83px 249px, 958px 322px; */
+  overflow: hidden;
   z-index: 3;
 }
