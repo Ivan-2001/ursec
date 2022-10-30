@@ -22,3 +22,10 @@
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
 @import url(../blocks/portfolio/__card/portfolio__card.css);
 @import url(../blocks/portfolio/__background/portfolio__background.css);
+@import url(../blocks/category/category.css);
+@import url(../blocks/category/__heading/category__heading.css);
+@import url(../blocks/category/__cards/category__cards.css);
+@import url(../blocks/category/__card/category__card.css);
+@import url(../blocks/category/__card-heding/category__card-heading.css);
+@import url(../blocks/category/__description/category__description.css);
+@import url(../blocks/category/__image/category__image.css);

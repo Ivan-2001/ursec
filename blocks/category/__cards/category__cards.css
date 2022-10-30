@@ -1,0 +1,7 @@
+.category__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  margin-top: 52px;
+  margin-left: 17px;
+}

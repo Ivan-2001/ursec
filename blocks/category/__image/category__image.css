@@ -1,0 +1,23 @@
+.category__image {
+  position: absolute;
+}
+
+.category__card:nth-child(1) .category__image {
+  right: 45.25px;
+  top: -47px;
+}
+
+.category__card:nth-child(2) .category__image {
+  right: 113.26px;
+  top: -1px;
+}
+
+.category__card:nth-child(3) .category__image {
+  right: 121.67px;
+  top: -36px;
+}
+
+.category__card:nth-child(4) .category__image {
+  right: 154px;
+  top: 43px;
+}
