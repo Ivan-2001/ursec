@@ -1,0 +1,15 @@
+.header__write {
+  height: 100%;
+  width: 305px;
+  padding-left: 19px;
+  font-family: "Aeroport";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #848484;
+  background: #f0f0f0;
+  border-radius: 3px;
+  display: flex;
+  margin-left: 127px;
+}

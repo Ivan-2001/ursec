@@ -1,0 +1,6 @@
+.portfolio__background {
+  position: absolute;
+  top: -112px;
+  left: -358px;
+  z-index: -1;
+}

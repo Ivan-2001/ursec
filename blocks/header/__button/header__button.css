@@ -1,0 +1,9 @@
+.header__button {
+  background: url(../../../images/header__button.png) no-repeat #000;
+  background-position: center;
+  background-size: 36px 36px;
+  margin-left: auto;
+  width: 70px;
+  height: 68px;
+  border-radius: 3px;
+}

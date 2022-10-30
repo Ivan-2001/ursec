@@ -1,0 +1,6 @@
+.main-description__cube {
+  position: absolute;
+  left: 930px;
+  top: -71px;
+  z-index: -2;
+}

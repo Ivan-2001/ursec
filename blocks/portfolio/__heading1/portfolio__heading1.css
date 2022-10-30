@@ -1,0 +1,9 @@
+.portfolio__heading1 {
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0;
+}

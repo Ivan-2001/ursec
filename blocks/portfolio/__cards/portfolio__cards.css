@@ -1,0 +1,8 @@
+.portfolio__cards {
+  display: grid;
+  grid-template: repeat(2, 480px) / repeat(2, 1fr);
+  grid-auto-rows: 480px;
+  grid-auto-columns: 1fr;
+  row-gap: 77px;
+  column-gap: 85px;
+}

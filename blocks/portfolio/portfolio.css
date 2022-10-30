@@ -1,0 +1,8 @@
+.portfolio {
+  background-color: #000;
+  color: #fff;
+  padding: 75px 124px 124px 119px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
