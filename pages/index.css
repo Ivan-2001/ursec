@@ -29,3 +29,12 @@
 @import url(../blocks/category/__card-heding/category__card-heading.css);
 @import url(../blocks/category/__description/category__description.css);
 @import url(../blocks/category/__image/category__image.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__heading/about__heading.css);
+@import url(../blocks/about/__cards/about__cards.css);
+@import url(../blocks/about/__card/about__card.css);
+@import url(../blocks/about/__img/about__img.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__background/about__background.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);

@@ -1,0 +1,7 @@
+.about {
+  position: relative;
+  padding: 139px 240px 289px 119px;
+  background-color: #000;
+  z-index: 2;
+  overflow: hidden;
+}

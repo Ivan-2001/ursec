@@ -1,0 +1,6 @@
+.about__background {
+  position: absolute;
+  z-index: -1;
+  left: -283px;
+  top: -365px;
+}
