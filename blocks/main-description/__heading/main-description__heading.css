@@ -1,8 +1,23 @@
 .main-description__heading {
-  margin: 0 0 0 190px;
+  margin: 0;
   font-family: "Aeroport";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 66px;
+  max-width: 890px;
+}
+
+@media screen and (max-width: 1550px) {
+  .main-description__heading {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .main-description__heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }

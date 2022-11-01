@@ -1,8 +1,22 @@
 .header {
-  margin-left: 10%;
-  margin-right: 52px;
+  margin: 0 2.733% 0 10%;
   align-items: center;
   height: 70px;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1550px) {
+  .header {
+    margin-left: 6%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    height: auto;
+  }
 }

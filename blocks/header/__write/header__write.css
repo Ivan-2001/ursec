@@ -11,5 +11,31 @@
   background: #f0f0f0;
   border-radius: 3px;
   display: flex;
-  margin-left: 127px;
+  margin-left: 7.648%;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__write {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header__write {
+    margin: 0;
+    width: 37%;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__write {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header__write {
+    width: 76%;
+  }
 }

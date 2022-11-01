@@ -11,6 +11,7 @@
 @import url(../blocks/header/__description/header__description.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/main-description/main-description.css);
+@import url(../blocks/main-description/__fastening/main-description__fastening.css);
 @import url(../blocks/main-description/__heading/main-description__heading.css);
 @import url(../blocks/main-description/__description/main-description__description.css);
 @import url(../blocks/main-description/__scotch/main-description__scotch.css);

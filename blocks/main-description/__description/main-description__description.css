@@ -1,8 +1,29 @@
 .main-description__description {
-  margin: 16px 0 0 190px;
+  margin: 16px 0 0 0;
   font-family: "Aeroport";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
+  max-width: 890px;
+}
+
+@media screen and (max-width: 1550px) {
+  .main-description__description {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-description__description {
+    margin: 0;
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .main-description__description {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

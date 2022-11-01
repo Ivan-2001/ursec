@@ -1,6 +1,39 @@
 .main-description__cube {
   position: absolute;
-  left: 930px;
-  top: -71px;
+  left: 48.88%;
+  top: -72px;
   z-index: -2;
+  width: 71.677%;
+}
+
+@media screen and (max-width: 1550px) {
+  .main-description__cube {
+    top: -30px;
+    width: 80%;
+    left: 41%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-description__cube {
+    top: -30px;
+    width: 124%;
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-description__cube {
+    top: 17px;
+    width: 172%;
+    left: -24%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-description__cube {
+    top: -11px;
+    width: 177%;
+    left: -45%;
+  }
 }
