@@ -6,3 +6,21 @@
   z-index: 2;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1400px) {
+  .portfolio {
+    padding: 90px 16%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .portfolio {
+    padding: 90px 10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .portfolio {
+    padding: 50px 3%;
+  }
+}

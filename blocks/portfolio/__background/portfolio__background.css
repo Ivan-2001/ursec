@@ -4,3 +4,30 @@
   left: -358px;
   z-index: -1;
 }
+
+@media screen and (max-width: 960px) {
+  .portfolio__background {
+    top: -48px;
+    width: 130%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio__background {
+    top: 80px;
+    width: 153%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio__background {
+    width: 168%;
+    left: -281px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .portfolio__background {
+    top: 195px;
+  }
+}
