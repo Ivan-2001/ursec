@@ -2,3 +2,15 @@
   padding: 74px 112px 168px 119px;
   color: #000;
 }
+
+@media screen and (max-width: 1200px) {
+  .category {
+    padding: 82px 45px 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .category {
+    padding: 82px 20px 100px;
+  }
+}

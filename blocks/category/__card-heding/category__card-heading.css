@@ -6,3 +6,9 @@
   margin: 0 29px 0 0;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 430px) {
+  .category__card-heading {
+    margin: 0;
+  }
+}

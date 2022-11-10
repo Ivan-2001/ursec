@@ -21,3 +21,53 @@
   right: 154px;
   top: 43px;
 }
+
+@media screen and (max-width: 1500px) {
+  .category__card:nth-child(1) .category__image {
+    right: 2%;
+  }
+
+  .category__card:nth-child(2) .category__image {
+    right: 6%;
+  }
+
+  .category__card:nth-child(3) .category__image {
+    right: 4%;
+  }
+
+  .category__card:nth-child(4) .category__image {
+    right: 7%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .category__image {
+    position: relative;
+    margin: 70px auto 0;
+  }
+  .category__card:nth-child(1) .category__image {
+    right: 0;
+    top: 0;
+  }
+
+  .category__card:nth-child(2) .category__image {
+    right: 0;
+    top: 0;
+  }
+
+  .category__card:nth-child(3) .category__image {
+    right: 0x;
+    top: 0;
+  }
+
+  .category__card:nth-child(4) .category__image {
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .category__image {
+    width: 80%;
+  }
+}

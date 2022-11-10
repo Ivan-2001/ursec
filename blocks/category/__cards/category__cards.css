@@ -5,3 +5,10 @@
   margin-top: 52px;
   margin-left: 17px;
 }
+
+@media screen and (max-width: 1400px) {
+  .category__cards {
+    gap: 40px;
+    margin-left: 0;
+  }
+}
