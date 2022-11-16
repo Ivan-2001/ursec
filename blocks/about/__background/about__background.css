@@ -1,6 +1,29 @@
 .about__background {
   position: absolute;
   z-index: -1;
-  left: -283px;
+  left: -15%;
   top: -365px;
+  width: 101%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1600px) {
+  .about__background {
+    width: 113%;
+    top: -300px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .about__background {
+    width: 135%;
+    top: -60px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .about__background {
+    width: 150%;
+    top: 80px;
+  }
 }
