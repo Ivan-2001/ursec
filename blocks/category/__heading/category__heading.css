@@ -7,3 +7,10 @@
   margin: 0;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1240px) {
+  .category__heading {
+    display: flex;
+    justify-content: center;
+  }
+}
