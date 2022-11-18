@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
   .category__card {
     flex-direction: column;
     padding: 68px 0 90px;
