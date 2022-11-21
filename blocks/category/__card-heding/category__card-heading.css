@@ -7,6 +7,38 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 970px) {
+  .category__card-heading {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .category__card-heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .category__card-heading {
+    font-size: 34px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .category__card-heading {
+    font-size: 28px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .category__card-heading {
+    line-height: 40px;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .category__card-heading {
     margin: 0;

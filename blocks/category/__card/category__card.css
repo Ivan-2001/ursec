@@ -8,23 +8,21 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 750px) {
+  .category__card {
+    padding: 35px 30px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .category__card {
+    padding: 28px 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
   .category__card {
     flex-direction: column;
-    padding: 68px 0 90px;
-    width: 63%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .category__card {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .category__card {
-    width: 100%;
+    align-items: start;
   }
 }

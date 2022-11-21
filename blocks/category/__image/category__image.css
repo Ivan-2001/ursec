@@ -40,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
   .category__image {
     position: relative;
     margin: 70px auto 0;
@@ -69,5 +69,129 @@
 @media screen and (max-width: 760px) {
   .category__image {
     width: 80%;
+  }
+} */
+
+@media screen and (max-width: 1220px) {
+  .category__image {
+    width: 25%;
+  }
+  .category__card:nth-child(1) .category__image {
+    right: 0;
+    top: -43px;
+    width: 32%;
+  }
+
+  .category__card:nth-child(2) .category__image {
+    right: 0;
+    top: 0;
+  }
+
+  .category__card:nth-child(3) .category__image {
+    right: 0x;
+    top: 0;
+  }
+
+  .category__card:nth-child(4) .category__image {
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .category__image {
+    width: 25%;
+  }
+  .category__card:nth-child(1) .category__image {
+    right: 0;
+    top: -29px;
+    width: 32%;
+  }
+
+  .category__card:nth-child(2) .category__image {
+    right: 0;
+    top: 0;
+  }
+
+  .category__card:nth-child(3) .category__image {
+    right: 0x;
+    top: 0;
+  }
+
+  .category__card:nth-child(4) .category__image {
+    right: 28px;
+    top: 17px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .category__image {
+    width: 25%;
+  }
+  .category__card:nth-child(1) .category__image {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .category__card:nth-child(2) .category__image {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .category__card:nth-child(3) .category__image {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    object-fit: contain;
+    width: 20%;
+  }
+
+  .category__card:nth-child(4) .category__image {
+    top: 30px;
+    height: 100%;
+    object-fit: contain;
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .category__card:nth-child(1) .category__image {
+    width: 30%;
+  }
+
+  .category__card:nth-child(2) .category__image {
+    width: 28%;
+  }
+
+  .category__card:nth-child(3) .category__image {
+    width: 30%;
+  }
+
+  .category__card:nth-child(4) .category__image {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 369px) {
+  .category__card:nth-child(4) .category__image {
+    top: 38px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .category__card:nth-child(1) .category__image {
+    width: 36%;
+    right: 4%;
+  }
+
+  .category__card:nth-child(2) .category__image {
+    right: 4%;
+  }
+
+  .category__card:nth-child(4) .category__image {
+    right: 3%;
   }
 }

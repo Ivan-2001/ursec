@@ -3,7 +3,7 @@
   color: #000;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
   .category {
     padding: 82px 45px 100px;
   }
