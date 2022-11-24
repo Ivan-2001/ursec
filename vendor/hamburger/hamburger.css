@@ -121,12 +121,13 @@ h2 {
     background-color: #00baf0;
     background: linear-gradient(to left, #eea849, #f46b45);
     border-radius: 12px;
-    padding: 4px 10px;
     height: 70px;
     margin: 0;
     position: relative;
     width: 55%;
     margin-left: 2%;
+    display: flex;
+    justify-content: center;
   }
 
   .header__list:nth-child(1) {
@@ -136,6 +137,9 @@ h2 {
 
   .menu-button-container {
     display: flex;
+    background-color: #222;
+    width: 70px;
+    border-radius: 12px;
   }
   .menu {
     position: absolute;
@@ -185,7 +189,6 @@ h2 {
     padding: 0;
   }
   .menu-button-container {
-    margin-left: 10%;
     background-color: #222;
     width: 70px;
   }
