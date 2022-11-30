@@ -3,6 +3,35 @@
   top: -112px;
   left: -358px;
   z-index: -1;
+  animation: portfolio__background 120s ease-in-out infinite;
+}
+
+@keyframes portfolio__background {
+  0% {
+    top: -112px;
+    left: -358px;
+  }
+  20% {
+    top: -255px;
+    left: 32%;
+    transform: rotate(60deg);
+  }
+  40% {
+    top: 166px;
+    left: -9%;
+    transform: rotate(-60deg);
+  }
+  60% {
+    top: -34px;
+    left: 32%;
+    transform: rotate(60deg);
+  }
+
+  100% {
+    top: -112px;
+    left: -358px;
+    transform: rotate(-60deg);
+  }
 }
 
 @media screen and (max-width: 960px) {
