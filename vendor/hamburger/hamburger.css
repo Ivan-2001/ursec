@@ -127,7 +127,6 @@ h2 {
     width: 55%;
     margin-left: 2%;
     display: flex;
-    justify-content: center;
   }
 
   .header__list:nth-child(1) {
@@ -191,6 +190,8 @@ h2 {
   .menu-button-container {
     background-color: #222;
     width: 70px;
+    margin-left: 7%;
+    border-radius: 0;
   }
 
   .menu {
