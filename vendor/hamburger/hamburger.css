@@ -118,7 +118,6 @@ h2 {
 
 @media screen and (max-width: 1200px) {
   .header__navigation {
-    background-color: #00baf0;
     background: linear-gradient(to left, #eea849, #f46b45);
     border-radius: 12px;
     height: 70px;
@@ -165,6 +164,11 @@ h2 {
     height: 3em;
     align-items: center;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  #menu-toggle:checked ~ .menu li:hover {
+    background-color: rgb(165, 165, 165);
+    transition: 0.3s;
   }
   .menu > li {
     display: flex;
