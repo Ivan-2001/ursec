@@ -1,0 +1,25 @@
+.header__list_place_portfolio:nth-child(2) {
+  margin-left: 78px;
+}
+
+.header__list_place_portfolio:nth-child(3) {
+  margin-left: 32px;
+}
+
+.header__list_place_portfolio:nth-child(4) {
+  margin-left: 39px;
+}
+
+@media screen and (max-width: 1450px) {
+  .header__list_place_portfolio:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .header__list_place_portfolio:nth-child(3) {
+    margin-left: 20px;
+  }
+
+  .header__list_place_portfolio:nth-child(4) {
+    margin-left: 20px;
+  }
+}

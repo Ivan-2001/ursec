@@ -63,3 +63,7 @@
 @import url(../blocks/presenters/__link/presenters__link.css);
 @import url(../blocks/presenters/__img/presenters__img.css);
 @import url(../blocks/footer/_page/_about/footer_page_about.css);
+@import url(../blocks/header-wrapper/_page/_portfolio/header-wrapper_page_portfolio.css);
+@import url(../blocks/header/__navigation/_color/header__navigation_color_white.css);
+@import url(../blocks/header/__list/_place/_portfolio/header__list_place_portfolio.css);
+@import url(../blocks/header/__button/_place/_portfolio/header__button_place_portfolio.css);
