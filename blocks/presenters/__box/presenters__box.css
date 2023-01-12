@@ -1,0 +1,33 @@
+.presenters__box {
+  font-family: "Aeroport";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  border: 4px solid #fff;
+  border-radius: 15px;
+  margin-top: 46px;
+  padding: 6px 46px 13px 43px;
+}
+
+@media screen and (max-width: 900px) {
+  .presenters__box {
+    font-size: 27px;
+    border: 3px solid #fff;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .presenters__box {
+    font-size: 24px;
+    padding: 3px 38px 8px 38px;
+    margin-top: 23px;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .presenters__box {
+    margin-top: 16px;
+  }
+}

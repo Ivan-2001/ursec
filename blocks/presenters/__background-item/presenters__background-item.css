@@ -1,0 +1,19 @@
+.presenters__background-item {
+  position: absolute;
+}
+
+.presenters__background-item:nth-child(1) {
+  top: 364px;
+  left: 11px;
+  z-index: 5;
+}
+
+.presenters__background-item:nth-child(2) {
+  z-index: 4;
+}
+
+.presenters__background-item:nth-child(3) {
+  z-index: 3;
+  top: 100px;
+  left: 12px;
+}

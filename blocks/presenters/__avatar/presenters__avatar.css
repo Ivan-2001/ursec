@@ -1,0 +1,27 @@
+.presenters__avatar {
+  width: 370px;
+  height: 370px;
+  border-radius: 17px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .presenters__avatar {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .presenters__avatar {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .presenters__avatar {
+    width: 240px;
+    height: 240px;
+  }
+}

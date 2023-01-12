@@ -1,0 +1,25 @@
+.header__list_place_about-description:nth-child(2) {
+  margin-left: 34px;
+}
+
+.header__list_place_about-description:nth-child(3) {
+  margin-left: 33px;
+}
+
+.header__list_place_about-description:nth-child(4) {
+  margin-left: 80px;
+}
+
+@media screen and (max-width: 1450px) {
+  .header__list_place_about-description:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .header__list_place_about-description:nth-child(3) {
+    margin-left: 20px;
+  }
+
+  .header__list_place_about-description:nth-child(4) {
+    margin-left: 20px;
+  }
+}

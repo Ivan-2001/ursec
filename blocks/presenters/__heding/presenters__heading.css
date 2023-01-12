@@ -1,0 +1,28 @@
+.presenters__heading {
+  font-family: "Aeroport";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  margin: 0 0 0 4px;
+}
+
+@media screen and (max-width: 900px) {
+  .presenters__heading {
+    font-size: 44px;
+    line-height: 40px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .presenters__heading {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .presenters__heading {
+    margin: 0;
+  }
+}

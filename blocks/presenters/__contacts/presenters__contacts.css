@@ -1,0 +1,17 @@
+.presenters__contacts {
+  display: flex;
+  gap: 29px;
+  margin: 79px 0 0 4px;
+}
+
+@media screen and (max-width: 900px) {
+  .presenters__contacts {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .presenters__contacts {
+    gap: 20px;
+  }
+}

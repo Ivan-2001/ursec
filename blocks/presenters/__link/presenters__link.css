@@ -1,0 +1,10 @@
+.presenters__link {
+  width: 52px;
+  height: 52px;
+  transition: 0.3s;
+}
+
+.presenters__link:hover {
+  opacity: 0.5;
+}
+

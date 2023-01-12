@@ -1,0 +1,18 @@
+.about-description__description {
+  font-family: "Aeroport";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #fff;
+  max-width: 753px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .about-description__description {
+    max-width: 90%;
+  }
+}

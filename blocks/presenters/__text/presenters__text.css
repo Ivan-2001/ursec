@@ -1,0 +1,14 @@
+.presenters__text {
+  font-family: "Aeroport";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0 0 0 4px;
+}
+
+@media screen and (max-width: 900px) {
+  .presenters__text {
+    font-size: 25px;
+  }
+}

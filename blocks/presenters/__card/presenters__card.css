@@ -1,0 +1,18 @@
+.presenters__card {
+  display: flex;
+  gap: 44px;
+  z-index: 6;
+}
+
+@media screen and (max-width: 559px) {
+  .presenters__card {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .presenters__card {
+    align-items: center;
+  }
+}
