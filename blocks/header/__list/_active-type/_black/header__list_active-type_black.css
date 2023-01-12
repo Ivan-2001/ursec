@@ -5,3 +5,9 @@
   margin-top: 4px;
   color: #fff;
 }
+
+@media screen and (max-width: 1220px) {
+  .header__list_active-type_black {
+    border-radius: 0;
+  }
+}
