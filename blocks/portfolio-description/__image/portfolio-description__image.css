@@ -1,0 +1,30 @@
+.portfolio-description__image {
+  position: absolute;
+  bottom: 0;
+  left: 16.4%;
+  width: 64.217%;
+}
+
+@media screen and (max-width: 1350px) {
+  .portfolio-description__image {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .portfolio-description__image {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .portfolio-description__image {
+    width: 64%;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .portfolio-description__image {
+    width: 73%;
+  }
+}

@@ -1,0 +1,22 @@
+.portfolio-description__text-application {
+  font-family: "Aeroport";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000;
+  text-align: left;
+}
+
+@media screen and (max-width: 1880px) {
+  .portfolio-description__text-application {
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .portfolio-description__text-application {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

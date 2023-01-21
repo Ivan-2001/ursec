@@ -67,3 +67,13 @@
 @import url(../blocks/header/__navigation/_color/header__navigation_color_white.css);
 @import url(../blocks/header/__list/_place/_portfolio/header__list_place_portfolio.css);
 @import url(../blocks/header/__button/_place/_portfolio/header__button_place_portfolio.css);
+@import url(../blocks/portfolio-description/portfolio-description.css);
+@import url(../blocks/portfolio-description/__heading/portfolio-description__heading.css);
+@import url(../blocks/portfolio-description/__heading__description/portfolio-description__heading-description.css);
+@import url(../blocks/portfolio-description/__application/portfolio-description__application.css);
+@import url(../blocks/portfolio-description/__image-wrapper/portfolio-description__image-wrapper.css);
+@import url(../blocks/portfolio-description/__image/portfolio-description__image.css);
+@import url(../blocks/portfolio-description/__heading-application/portfolio-description__heading-application.css);
+@import url(../blocks/portfolio-description/__text-application/portfolio-description__text-application.css);
+@import url(../blocks/portfolio-description/__link-application/portfolio-description__link-application.css);
+@import url(../blocks/portfolio-description/__about-application/portfolio-description__about-application.css);

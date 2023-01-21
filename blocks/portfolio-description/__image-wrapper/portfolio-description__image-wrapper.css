@@ -1,0 +1,22 @@
+.portfolio-description__image-wrapper {
+  background-color: #ee4235;
+  width: calc(52.595% - 35px);
+  border-radius: 17px;
+  height: 100px;
+  position: relative;
+  padding: 11.743% 0;
+}
+
+@media screen and (max-width: 999px) {
+  .portfolio-description__image-wrapper {
+    width: 70%;
+    padding: 16% 0;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .portfolio-description__image-wrapper {
+    width: 100%;
+    padding: 23% 0;
+  }
+}

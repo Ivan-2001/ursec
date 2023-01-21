@@ -1,0 +1,18 @@
+.portfolio-description__application {
+  display: flex;
+  gap: 34px;
+  margin: 90px 5.203% 0 9.7748%;
+}
+
+@media screen and (max-width: 999px) {
+  .portfolio-description__application {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .portfolio-description__application {
+    margin: 90px 7% 0;
+  }
+}
