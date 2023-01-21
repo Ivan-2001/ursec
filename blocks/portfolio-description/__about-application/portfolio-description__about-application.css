@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 699px) {
   .portfolio-description__about-application {
     max-width: 100%;
   }
